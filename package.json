@@ -2,16 +2,22 @@
   "name": "cyse-protocol",
   "version": "1.0.0",
   "type": "module",
+  "scripts": {
+    "test": "npx hardhat test",
+    "compile": "hardhat compile"
+  },
   "devDependencies": {
     "@nomicfoundation/hardhat-ignition": "^3.0.8",
     "@nomicfoundation/hardhat-toolbox-viem": "^5.0.2",
     "@types/node": "^22.19.13",
+    "ethereum-waffle": "^4.0.10",
     "forge-std": "github:foundry-rs/forge-std#v1.9.4",
     "hardhat": "^3.1.10",
     "typescript": "~5.8.0",
     "viem": "^2.47.0"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "^5.6.1"
+    "@openzeppelin/contracts": "^5.6.1",
+    "bn.js": "^5.2.3"
   }
 }
