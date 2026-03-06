@@ -2,6 +2,10 @@
   "name": "cyse-protocol",
   "version": "1.0.0",
   "type": "module",
+  "scripts": {
+    "test": "npx hardhat test",
+    "compile": "hardhat compile"
+  },
   "devDependencies": {
     "@nomicfoundation/hardhat-ignition": "^3.0.8",
     "@nomicfoundation/hardhat-toolbox-viem": "^5.0.2",
